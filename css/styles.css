@@ -59,7 +59,6 @@ html {
     background: linear-gradient(45deg, #6a4acc, #e85bb8);
 }
 
-
 .home-button {
     color: white;
     background: rgba(255, 255, 255, 0.15);
@@ -120,9 +119,9 @@ body {
     min-height: 100vh;  /* Changed from 50vh */
     height: 100vh;       /* Ensures it takes full height of the screen */
     display: flex;
-   flex-direction: column;
-    justify-content: flex-start;
-    align-items: stretch;   /* Center horizontally */
+    flex-direction: column;
+    justify-content: center;  /* Center the content vertically */
+    align-items: center;      /* Center horizontally */
     text-align: center;
     will-change: transform;
 }
@@ -235,16 +234,6 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
     animation: fadeIn 1.5s ease;
 }
-
-.poem-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  margin-top: 2rem;
-  flex-wrap: wrap; /* Keeps it responsive on smaller screens */
-}
-
 
 .poem-counter {
     display: flex;

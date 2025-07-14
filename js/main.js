@@ -37,27 +37,16 @@ window.addEventListener('load', function() {
   function filterPoems(category) {
     const poems = document.querySelectorAll('.poem-card');
     
-    // First, fade out all poems
-    poems.forEach((poem, index) => {
-      poem.style.transition = 'all 0.3s ease';
-      poem.style.transform = 'scale(0.8)';
-      poem.style.opacity = '0';
+    // Show/hide poems without complex animations that might break display
+    poems.forEach((poem) => {
+      if (category === 'all' || poem.dataset.category === category) {
+        poem.style.display = 'flex';
+        poem.style.opacity = '1';
+        poem.style.visibility = 'visible';
+      } else {
+        poem.style.display = 'none';
+      }
     });
-
-    // After fade out, show/hide poems and fade in visible ones
-    setTimeout(() => {
-      poems.forEach((poem, index) => {
-        if (category === 'all' || poem.dataset.category === category) {
-          poem.style.display = 'block';
-          setTimeout(() => {
-            poem.style.transform = 'scale(1)';
-            poem.style.opacity = '1';
-          }, index * 100); // Staggered animation
-        } else {
-          poem.style.display = 'none';
-        }
-      });
-    }, 300);
   }
 
   const categorySelect = document.getElementById('poem-category');
