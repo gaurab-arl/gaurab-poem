@@ -235,6 +235,43 @@ h1 {
     animation: fadeIn 1.5s ease;
 }
 
+.poem-counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 1.5rem 2rem;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    max-width: 200px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2.2s ease;
+}
+
+.counter-number {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    line-height: 1;
+    background: linear-gradient(45deg, #fff, #f0f0f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.counter-label {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+}
 .category-dropdown {
     text-align: center;
     margin: 1rem auto 0;
@@ -707,6 +744,20 @@ footer p {
     .poems-description {
         font-size: 1.3rem;
     }
+    
+    .poem-counter {
+        margin: 1.5rem auto;
+        padding: 1.2rem 1.5rem;
+        max-width: 180px;
+    }
+    
+    .counter-number {
+        font-size: 2.5rem;
+    }
+    
+    .counter-label {
+        font-size: 1.1rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -783,6 +834,20 @@ footer p {
     
     .category-dropdown::after {
         right: 1.5rem;
+    }
+    
+    .poem-counter {
+        margin: 1rem auto;
+        padding: 1rem 1.2rem;
+        max-width: 160px;
+    }
+    
+    .counter-number {
+        font-size: 2.2rem;
+    }
+    
+    .counter-label {
+        font-size: 1rem;
     }
 }
 
