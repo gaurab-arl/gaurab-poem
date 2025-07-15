@@ -116,23 +116,96 @@ body {
     top: 20px;
     left: 20px;
     z-index: 1000;
-    background: rgba(126, 91, 239, 0.9);
-    color: white;
+    background: rgba(255, 255, 255, 0.95);
+    color: #2c3e50;
     padding: 12px 20px;
     border-radius: 50px;
     text-decoration: none;
     font-weight: 600;
     font-size: 0.9rem;
     backdrop-filter: blur(10px);
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(126, 91, 239, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .home-button-fixed:hover {
-    background: rgba(126, 91, 239, 1);
+    background: rgba(255, 255, 255, 1);
+    color: #1a202c;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(126, 91, 239, 0.4);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Navigation dropdown */
+.nav-dropdown {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.nav-toggle {
+    background: rgba(255, 255, 255, 0.95);
+    color: #2c3e50;
+    padding: 12px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-toggle:hover {
+    background: rgba(255, 255, 255, 1);
+    color: #1a202c;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.nav-menu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    min-width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+
+.nav-dropdown.active .nav-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.nav-menu a {
+    display: block;
+    padding: 12px 20px;
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.nav-menu a:hover {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    transform: translateX(5px);
 }
 
 .unified-header {

@@ -1,6 +1,30 @@
 // main.js
 
 document.addEventListener('DOMContentLoaded', function () {
+  // Navigation dropdown functionality
+  const navDropdown = document.getElementById('navDropdown');
+  const navToggle = document.getElementById('navToggle');
+  
+  if (navToggle && navDropdown) {
+    navToggle.addEventListener('click', function(e) {
+      e.stopPropagation();
+      navDropdown.classList.toggle('active');
+    });
+    
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function() {
+      navDropdown.classList.remove('active');
+    });
+    
+    // Prevent dropdown from closing when clicking inside menu
+    const navMenu = navDropdown.querySelector('.nav-menu');
+    if (navMenu) {
+      navMenu.addEventListener('click', function(e) {
+        e.stopPropagation();
+      });
+    }
+  }
+
   // Smooth scroll for navigation
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
