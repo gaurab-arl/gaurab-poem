@@ -221,10 +221,7 @@ body {
     line-height: 2;
     font-size: 1.2rem;
     color: white;
-    background: linear-gradient(135deg, 
-        rgba(126, 91, 239, 0.95) 0%, 
-        rgba(244, 114, 182, 0.9) 50%, 
-        rgba(139, 69, 19, 0.85) 100%);
+    background: url('../images/poem-wrapper.png') repeat ;
     padding: 3rem;
     border-radius: 20px;
     margin: 3rem 0;

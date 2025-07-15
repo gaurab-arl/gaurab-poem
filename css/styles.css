@@ -209,19 +209,20 @@ body {
 }
 
 .unified-header {
-    background: linear-gradient(135deg, 
-        rgba(126, 91, 239, 0.95) 0%, 
-        rgba(244, 114, 182, 0.9) 50%, 
-        rgba(139, 69, 19, 0.85) 100%);
+    background-image: var(--shared-header-image);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     position: relative;
     padding: 2rem 2rem 3rem;
-    min-height: 100vh;
-    height: 100vh;
+    min-height: 100vh;  /* Changed from 50vh */
+    height: 100vh;       /* Ensures it takes full height of the screen */
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: center;  /* Center the content vertically */
+    align-items: center;      /* Center horizontally */
     text-align: center;
+    will-change: transform;
 }
 
 .unified-header::before {
@@ -668,9 +669,7 @@ h1 {
 }
 
 footer {
-    background: linear-gradient(135deg, 
-        rgba(126, 91, 239, 0.95) 0%, 
-        rgba(244, 114, 182, 0.9) 50%);
+    background:url('../images/poem-wrapper.png') repeat;
     padding: 3rem 0;
     margin-top: 0;
     position: relative;
