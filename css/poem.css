@@ -26,6 +26,31 @@ body {
     background: linear-gradient(135deg, #fdf9ff 0%, #f3f0ff 100%);
 }
 
+/* Home button for poem pages */
+.home-button-fixed {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background: rgba(126, 91, 239, 0.9);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(126, 91, 239, 0.3);
+}
+
+.home-button-fixed:hover {
+    background: rgba(126, 91, 239, 1);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(126, 91, 239, 0.4);
+}
+
 .container {
     max-width: 900px;
     margin: 2rem auto;
@@ -130,20 +155,13 @@ body {
     line-height: 2;
     font-size: 1.2rem;
     color: white;
-    /* Enhanced fallback background */
     background: linear-gradient(135deg, 
-        rgba(126, 91, 239, 0.9) 0%, 
-        rgba(244, 114, 182, 0.8) 50%);
-    /* Background image loads on top of gradient */
-    background-image: url('../images/header.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-blend-mode: overlay;
+        rgba(126, 91, 239, 0.95) 0%, 
+        rgba(244, 114, 182, 0.9) 50%, 
+        rgba(139, 69, 19, 0.85) 100%);
     padding: 3rem;
     border-radius: 20px;
     margin: 3rem 0;
-    /* Enhanced text shadow for better readability */
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
     position: relative;
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
@@ -258,6 +276,13 @@ body {
     .author {
         font-size: 1.2rem;
     }
+    
+    .home-button-fixed {
+        top: 15px;
+        left: 15px;
+        padding: 10px 16px;
+        font-size: 0.85rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -289,5 +314,12 @@ body {
     .back-button {
         padding: 0.8rem 1.5rem;
         font-size: 0.9rem;
+    }
+    
+    .home-button-fixed {
+        top: 10px;
+        left: 10px;
+        padding: 8px 14px;
+        font-size: 0.8rem;
     }
 }

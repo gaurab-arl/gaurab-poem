@@ -1,24 +1,6 @@
 // main.js
 
 document.addEventListener('DOMContentLoaded', function () {
-  // Add loading overlay
-  const loadingOverlay = document.createElement('div');
-  loadingOverlay.className = 'loading-overlay';
-  loadingOverlay.innerHTML = '<div class="loading-spinner"></div>';
-  document.body.appendChild(loadingOverlay);
-
-  // Hide loading overlay after page loads
-window.addEventListener('load', function() {
-  setTimeout(() => {
-    if (loadingOverlay) {
-      loadingOverlay.classList.add('hidden');
-      setTimeout(() => {
-        loadingOverlay.remove();
-      }, 500);
-    }
-  }, 1200); // Slightly longer to ensure smooth experience
-});
-
   // Smooth scroll for navigation
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -59,24 +41,6 @@ window.addEventListener('load', function() {
   // Initialize with all poems showing
   filterPoems('all');
 
-  // Add parallax effect to header
-  window.addEventListener('scroll', function() {
-    const scrolled = window.pageYOffset;
-    const header = document.querySelector('.unified-header');
-    const footer = document.querySelector('footer');
-    
-    if (header) {
-      header.style.transform = `translateY(${scrolled * 0.5}px)`;
-    }
-    
-    if (footer) {
-      const footerOffset = footer.offsetTop - window.innerHeight;
-      if (scrolled > footerOffset) {
-        footer.style.transform = `translateY(${(scrolled - footerOffset) * 0.3}px)`;
-      }
-    }
-  });
-
   // Add hover sound effect (optional)
   const poemCards = document.querySelectorAll('.poem-card');
   poemCards.forEach(card => {
@@ -89,29 +53,6 @@ window.addEventListener('load', function() {
       this.style.transform = 'translateY(0) scale(1)';
     });
   });
-
-  // Add typing effect to main title
-  const title = document.querySelector('h1');
-  if (title && title.textContent === 'Poetry Collection') {
-    const text = title.textContent;
-    title.textContent = '';
-    title.style.borderRight = '2px solid white';
-    
-    let i = 0;
-    const typeWriter = () => {
-      if (i < text.length) {
-        title.textContent += text.charAt(i);
-        i++;
-        setTimeout(typeWriter, 100);
-      } else {
-        setTimeout(() => {
-          title.style.borderRight = 'none';
-        }, 1000);
-      }
-    };
-    
-    setTimeout(typeWriter, 1000);
-  }
 
   // Add intersection observer for scroll animations
   const observerOptions = {
@@ -131,4 +72,16 @@ window.addEventListener('load', function() {
   document.querySelectorAll('.poem-card').forEach(card => {
     observer.observe(card);
   });
+  
+  // Smooth scroll to top for home button
+  const homeButton = document.querySelector('.home-button-fixed');
+  if (homeButton) {
+    homeButton.addEventListener('click', function(e) {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  }
 });
