@@ -40,42 +40,27 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   // Enhanced poem filtering with animations
-  function filterPoems(category) {
-    const poems = document.querySelectorAll('.poem-card');
-    
-    // Show/hide poems without complex animations that might break display
-    poems.forEach((poem) => {
-      if (category === 'all' || poem.dataset.category === category) {
-        poem.style.display = 'flex';
-        poem.style.opacity = '1';
-        poem.style.visibility = 'visible';
-      } else {
-        poem.style.display = 'none';
+  const categorySelect = document.getElementById('poem-category');
+  if (categorySelect) {
+    categorySelect.addEventListener('change', function () {
+      if (window.poemPagination) {
+        window.poemPagination.currentFilter = this.value;
+        window.poemPagination.filterPoems();
+        window.poemPagination.currentPage = 1;
+        window.poemPagination.render();
       }
     });
   }
 
-  const categorySelect = document.getElementById('poem-category');
-  if (categorySelect) {
-    categorySelect.addEventListener('change', function () {
-      filterPoems(this.value);
-    });
-  }
-
-  // Initialize with all poems showing
-  filterPoems('all');
-
   // Add hover sound effect (optional)
-  const poemCards = document.querySelectorAll('.poem-card');
-  poemCards.forEach(card => {
-    card.addEventListener('mouseenter', function() {
-      // Add subtle scale animation
-      this.style.transform = 'translateY(-12px) scale(1.02)';
-    });
-    
-    card.addEventListener('mouseleave', function() {
-      this.style.transform = 'translateY(0) scale(1)';
-    });
+  document.addEventListener('click', function(e) {
+    if (e.target.closest('.poem-card')) {
+      const card = e.target.closest('.poem-card');
+      card.style.transform = 'translateY(-12px) scale(1.02)';
+      setTimeout(() => {
+        card.style.transform = '';
+      }, 200);
+    }
   });
 
   // Add intersection observer for scroll animations
@@ -93,9 +78,23 @@ document.addEventListener('DOMContentLoaded', function () {
   }, observerOptions);
 
   // Observe poem cards for scroll animations
-  document.querySelectorAll('.poem-card').forEach(card => {
-    observer.observe(card);
-  });
+  const observeCards = () => {
+    document.querySelectorAll('.poem-card').forEach(card => {
+      observer.observe(card);
+    });
+  };
+  
+  // Initial observation
+  setTimeout(observeCards, 100);
+  
+  // Re-observe when pagination changes
+  const originalRender = window.poemPagination?.render;
+  if (originalRender) {
+    window.poemPagination.render = function() {
+      originalRender.call(this);
+      setTimeout(observeCards, 100);
+    };
+  }
   
   // Smooth scroll to top for home button
   const homeButton = document.querySelector('.home-button-fixed');
