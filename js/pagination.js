@@ -196,9 +196,92 @@ class PoemPagination {
 
 // Poems data
 const poemsData = [
-    { title: "Afraid", url: "/poems/afraid.html", category: "love", description: "A vulnerable confession of fear and longing, reaching out to someone special in moments of darkness." },
-    { title: "A Friend for a Moment, a Stranger the Next", url: "/poems/afriend.html", category: "life", description: "A moment that someone tells who you are in front of others." },
-    { title: "Shadow of People Around", url: "/poems/aperson.html", category: "life", description: "Exploring the unseen influence of those around us, this poem delves into the subtle ways people shape our lives and emotions." },
+      { title: "Mero Sapana",
+         url: "/poems/merosapana.html", 
+         category: "love",
+          description: "This poem wish the person would come, call their name, and acknowledge their love just once. Even when close, the distance remains, yet the speaker keeps watching, waiting." },
+
+    { title: "Captive In House",
+         url: "/poems/captive.html",
+         category: "introspection",
+          description: "This poem reflects on the feeling of being trapped within one's own mind, exploring themes of isolation and self-discovery." },
+
+    { title: "Shadows of Classmates",
+         url: "/poems/classhadow.html",
+         category: "friendship",
+          description: "This poem explores the complex emotions of friendship and the shadows that can linger between classmates." },
+   
+          { title: "Prayer of Decay",
+         url: "/poems/decay.html",
+         category: "introspection",
+          description: "This poem delves into the themes of decay and renewal, reflecting on the passage of time and the inevitability of change." },
+
+    { title: "Spilling Secrets Like Water",
+         url: "/poems/height.html",
+         category: "introspection",
+          description: "This poem reflects on the act of sharing one's innermost thoughts and feelings, exploring the vulnerability and strength that comes with it." },
+
+    { title: "Ring and Dream",
+         url: "/poems/callring.html",
+         category: "life",
+          description: "This poem explores the dreamlike state of love, where reality blurs with fantasy, and the heart yearns for connection." },
+
+  { title: "Mental Age Thirty-Two",
+         url: "/poems/sbirth32.html",
+         category: "introspection",
+          description: "This poem reflects on the complexities of mental age and maturity, exploring the disconnect between physical and emotional growth." },
+
+          { title: "Spilling Secrets Like Water",
+         url: "/poems/heightoflove.html",
+         category: "love",
+          description: "This poem explores the heights of love and the emotions that come with it." },
+
+    { title: "Misery Loop",
+         url: "/poems/loop.html",
+         category: "love",
+          description: "This poem delves into the depths of despair and the feeling of being trapped in a never-ending cycle of misery." },
+
+    { title: "The Burning Train",
+         url: "/poems/train.html",
+         category: "love",
+          description: "On a burning train, two souls travel together, both smiling through the chill of despair, dreaming of freedom while bound by chains." },
+
+    { title: "Until I Die I Care",
+         url: "/poems/untildie.html",   
+            category: "introspection",
+          description: "A poignant exploration of love and friendship, capturing the essence of caring for someone until the very end." },
+
+    { title: "Hunter Goodbye",
+         url: "/poems/hunter.html",
+         category: "love",
+          description: "A gripping tale of survival and the primal instincts that drive us in the face of danger." },
+
+    { title: "Innocence of Friend",
+         url: "/poems/night.html",
+         category: "friendship",
+          description: "A heartfelt exploration of the bonds of friendship and the innocence that comes with it." },
+  
+    { title: "Stray Away From You",
+         url: "/poems/stray.html", 
+         category: "love",
+          description: "This poem explores the feeling of longing and the desire to connect with someone special." },
+
+    { title: "Terror of Person",
+         url: "/poems/terror.html", 
+         category: "Friendship",
+          description: "This poem depicts a figure consumed by darkness, devouring even the kindest souls, surrounded by demons obsessed with his presence." },
+
+    { title: "Afraid",
+         url: "/poems/afraid.html", 
+         category: "love",
+          description: "A vulnerable confession of fear and longing, reaching out to someone special in moments of darkness." },
+   
+          { title: "A Friend for a Moment, a Stranger the Next", 
+            url: "/poems/afriend.html", 
+            category: "life",
+             description: "A moment that someone tells who you are in front of others." },
+  
+          { title: "Shadow of People Around", url: "/poems/aperson.html", category: "life", description: "Exploring the unseen influence of those around us, this poem delves into the subtle ways people shape our lives and emotions." },
     { title: "Child / Baalak", url: "/poems/baalak.html", category: "family", description: "A poignant tale of childhood, hunger, and loss told through the eyes of innocence." },
     { title: "Beggers", url: "/poems/beggers.html", category: "life", description: "A raw exploration of survival, desperation, and the harsh realities of life on the margins." },
     { title: "Bride", url: "/poems/bride.html", category: "love", description: "A tender love poem celebrating the beauty and promise of eternal devotion." },
