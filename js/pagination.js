@@ -196,7 +196,34 @@ class PoemPagination {
 
 // Poems data
 const poemsData = [
-      { title: "Mero Sapana",
+
+      { title: "Night With My Inspiration",
+         url: "/poems/myinspiration.html", 
+            category: "introspection",
+            description: "This poem reflects on the inspiration drawn from a loved one, capturing the essence of admiration and longing." },
+
+            {title: "Mirror And Divine",
+                url: "/poems/mirroranddivine.html",
+                category: "spirituality",
+                description: "A poem that explores the relationship between self-reflection and divine inspiration, delving into the depths of the soul."
+            },
+    { title: "Hanging Monkey",
+         url: "/poems/monkey.html",
+         category: "introspection",
+         description: "A poem that captures the feeling of being in a chaotic situation, like hanging on a bus, and the longing for stability and peace." },
+
+    { title: "Vibration with Melody",
+         url: "/poems/melody.html", 
+         category: "love",
+         description: "A poem that captures the essence of love through the metaphor of music, exploring the deep connection between two souls." },
+         
+{ title: "Haami Saathi Hau",
+         url: "/poems/hamisathi.html",
+         category: "friendship",
+         description: "This poem reflects on the bond of friendship, exploring the unspoken understanding and connection between two people."
+     },
+
+             { title: "Mero Sapana",
          url: "/poems/merosapana.html", 
          category: "love",
           description: "This poem wish the person would come, call their name, and acknowledge their love just once. Even when close, the distance remains, yet the speaker keeps watching, waiting." },
