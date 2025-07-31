@@ -207,6 +207,7 @@ const poemsData = [
                 category: "spirituality",
                 description: "A poem that explores the relationship between self-reflection and divine inspiration, delving into the depths of the soul."
             },
+
     { title: "Hanging Monkey",
          url: "/poems/monkey.html",
          category: "introspection",
@@ -223,7 +224,13 @@ const poemsData = [
          description: "This poem reflects on the bond of friendship, exploring the unspoken understanding and connection between two people."
      },
 
-             { title: "Mero Sapana",
+     { title: "Dyed in Your Color",
+         url: "/poems/dyed.html",
+         category: "love",
+          description: "This poem explores the theme of love and how it can change one's perception of self."
+     },
+     
+     { title: "Mero Sapana",
          url: "/poems/merosapana.html", 
          category: "love",
           description: "This poem wish the person would come, call their name, and acknowledge their love just once. Even when close, the distance remains, yet the speaker keeps watching, waiting." },
