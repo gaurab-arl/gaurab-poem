@@ -208,6 +208,12 @@ const poemsData = [
                 description: "A poem that explores the relationship between self-reflection and divine inspiration, delving into the depths of the soul."
             },
 
+{ title: "Two Demon",
+         url: "/poems/twodemon.html",
+         category: "introspection",
+         description: "This poem explores the duality of human nature, depicting the struggle between opposing forcesf."
+    },
+
     { title: "Hanging Monkey",
          url: "/poems/monkey.html",
          category: "introspection",
