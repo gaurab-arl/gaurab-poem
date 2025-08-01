@@ -202,6 +202,12 @@ const poemsData = [
             category: "introspection",
             description: "This poem reflects on the inspiration drawn from a loved one, capturing the essence of admiration and longing." },
 
+            { title: "A Seed Breached",
+                url: "/poems/seedbreached.html",
+                category: "introspection",
+                description: " A poem that explores the journey of growth and self-discovery, likening it to a seed breaking through the soil." },
+            
+
             {title: "Mirror And Divine",
                 url: "/poems/mirroranddivine.html",
                 category: "spirituality",
