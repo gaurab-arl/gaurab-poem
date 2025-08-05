@@ -209,7 +209,7 @@ const poemsData = [
             
 
             {title: "Mirror And Divine",
-                url: "/poems/mirroranddivine.html",
+                url: "/poems/mirrorandivine.html",
                 category: "spirituality",
                 description: "A poem that explores the relationship between self-reflection and divine inspiration, delving into the depths of the soul."
             },
