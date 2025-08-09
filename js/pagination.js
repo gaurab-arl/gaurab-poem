@@ -295,11 +295,6 @@ const poemsData = [
          category: "introspection",
           description: "This poem reflects on the complexities of mental age and maturity, exploring the disconnect between physical and emotional growth." },
 
-          { title: "Spilling Secrets Like Water",
-         url: "/poems/heightoflove.html",
-         category: "love",
-          description: "This poem explores the heights of love and the emotions that come with it." },
-
     { title: "Misery Loop",
          url: "/poems/loop.html",
          category: "love",
