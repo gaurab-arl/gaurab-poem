@@ -204,6 +204,12 @@ const poemsData = [
         description: " A poem that reflects on the admiration for an partner that is mature than me."
     },
     {
+        title: "Bones, Skin and Flesh",
+        url: "/poems/bones.html",
+        category: "introspection",
+        description: "This poem explores the relationship between physical appearance and inner essence, emphasizing the equality of all human beings."
+    },
+    {
         title: "Forward Toward the Sky",
         url: "/poems/fly.html",
         category: "love",
