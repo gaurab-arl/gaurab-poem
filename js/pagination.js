@@ -99,6 +99,7 @@ class PoemPagination {
         container.innerHTML = currentPoems.map(poem => `
             <a href="${poem.url}" class="poem-card" data-category="${poem.category}" aria-label="Read ${poem.title}">
                 <span class="poem-category">${poem.category}</span>
+                 ${poem.subcategory ? `<span class="poem-subcategory">${poem.subcategory}</span>` : ''}
                 <img src="images/unified-header.jpeg" alt="${poem.title}" loading="lazy">
                 <div class="poem-card-content">
                     <h2 class="poem-title">${poem.title}</h2>
@@ -200,13 +201,21 @@ const poemsData = [
     {
         title: "My Old Lady",
         url: "/poems/oldlady.html",
-        category: "introspection",
-        description: " A poem that reflects on the admiration for an partner that is mature than me."
+        category: "swostika",
+          subcategory: "Letter",
+        description: "A playful yet heartfelt poem celebrating a partner whose wit, charm, and unpredictability make her feel older, wiser, and wonderfully untamed."
     },
+    {
+        title: "Witty One Around Me",
+        url: "/poems/witty.html",
+        category: "tulsa",
+        description: "A playful exploration of a charming personality, capturing the essence of wit and humor in everyday life."
+    },
+
     {
         title: "Bones, Skin and Flesh",
         url: "/poems/bones.html",
-        category: "introspection",
+        category: "Fang Yuan",
         description: "This poem explores the relationship between physical appearance and inner essence, emphasizing the equality of all human beings."
     },
     {
@@ -219,7 +228,7 @@ const poemsData = [
     {
         title: "Night With My Inspiration",
         url: "/poems/myinspiration.html",
-        category: "introspection",
+        category: "swostika",
         description: "This poem reflects on the inspiration drawn from a loved one, capturing the essence of admiration and longing."
     },
 
@@ -350,7 +359,12 @@ const poemsData = [
     { title: "Child / Baalak", url: "/poems/baalak.html", category: "family", description: "A poignant tale of childhood, hunger, and loss told through the eyes of innocence." },
     { title: "Beggers", url: "/poems/beggers.html", category: "life", description: "A raw exploration of survival, desperation, and the harsh realities of life on the margins." },
     { title: "Bride", url: "/poems/bride.html", category: "love", description: "A tender love poem celebrating the beauty and promise of eternal devotion." },
-    { title: "Care", url: "/poems/care.html", category: "friendship", description: "A heartfelt reflection on friendship, care, and the burden of being cared for." },
+    {
+         title: "Care",
+          url: "/poems/care.html",
+           category: "friendship", 
+           description: "A heartfelt reflection on friendship, care, and the burden of being cared for." 
+        },
     { title: "Confusion", url: "/poems/confusion.html", category: "introspection", description: "Navigating the storms of uncertainty and the complexity of human emotions." },
     { title: "Cry", url: "/poems/cry.html", category: "life", description: "A compassionate witness to tears and sorrow, offering silent comfort and understanding." },
     { title: "She Who Lives Behind the Curtain", url: "/poems/curtain.html", category: "nature", description: "A mysterious presence, hidden yet ever-present, observing the world from behind the veil." },
