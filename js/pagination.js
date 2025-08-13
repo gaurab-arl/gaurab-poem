@@ -211,7 +211,12 @@ const poemsData = [
         category: "tulsa",
         description: "A playful exploration of a charming personality, capturing the essence of wit and humor in everyday life."
     },
-
+    {
+         title: "Truth and Lies",
+         url: "/poems/truthnlie.html",
+         category: "introspection",
+         description: "A poem about the struggle between truth and me where I write my lies thinking its true."
+    },
     {
         title: "Bones, Skin and Flesh",
         url: "/poems/bones.html",
