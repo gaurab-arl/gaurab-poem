@@ -206,6 +206,12 @@ const poemsData = [
         description: "A playful yet heartfelt poem celebrating a partner whose wit, charm, and unpredictability make her feel older, wiser, and wonderfully untamed."
     },
     {
+        title: "Untitled Poem",
+        url: "/poems/untitled.html",
+        category: "abstract",
+        description: "An exploration of the ineffable, capturing emotions and thoughts that defy definition."
+    },
+    {
         title: "Witty One Around Me",
         url: "/poems/witty.html",
         category: "tulsa",
@@ -247,7 +253,8 @@ const poemsData = [
     {
         title: "Mirror And Divine",
         url: "/poems/mirrorandivine.html",
-        category: "spirituality",
+        category: "swostika",
+        subcategory:"sangam",
                 description: "A poem that explores the relationship between self-reflection and divine inspiration, delving into the depths of the soul."
             },
 
