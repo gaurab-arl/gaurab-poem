@@ -205,12 +205,7 @@ const poemsData = [
           subcategory: "Letter",
         description: "A playful yet heartfelt poem celebrating a partner whose wit, charm, and unpredictability make her feel older, wiser, and wonderfully untamed."
     },
-    {
-        title: "Untitled Poem",
-        url: "/poems/untitled.html",
-        category: "abstract",
-        description: "An exploration of the ineffable, capturing emotions and thoughts that defy definition."
-    },
+ 
     {
         title: "Witty One Around Me",
         url: "/poems/witty.html",
