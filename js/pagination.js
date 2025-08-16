@@ -205,7 +205,13 @@ const poemsData = [
           subcategory: "Letter",
         description: "A playful yet heartfelt poem celebrating a partner whose wit, charm, and unpredictability make her feel older, wiser, and wonderfully untamed."
     },
- 
+    {
+        title: "Shade and Seed",
+        url: "/poems/moonlight.html",
+        category: "life",
+        subcategory: "swostika",
+        description: "A romantic poem that captures the beauty and tranquility of a moonlit night."
+    },
     {
         title: "Witty One Around Me",
         url: "/poems/witty.html",
@@ -216,6 +222,7 @@ const poemsData = [
          title: "Truth and Lies",
          url: "/poems/truthnlie.html",
          category: "introspection",
+         subcategory: "Lies a mile away",
          description: "A poem about the struggle between truth and me where I write my lies thinking its true."
     },
     {
@@ -254,9 +261,10 @@ const poemsData = [
             },
 
     {
-        title: "Two Demon",
-        url: "/poems/twodemon.html",
-        category: "introspection",
+        title: "Two Enchantress",
+        url: "/poems/twoenchantress.html",
+        category: "Tulsa",
+        subcategory:" Swostika",
         description: "This poem explores the duality of human nature, depicting the struggle between opposing forces."
     },
 
@@ -294,7 +302,8 @@ const poemsData = [
 
     { title: "Shadows of Classmates",
          url: "/poems/classhadow.html",
-         category: "friendship",
+         category:"Classmate of class",
+         subcategory: "friendship",
           description: "This poem explores the complex emotions of friendship and the shadows that can linger between classmates." },
    
           { title: "Prayer of Decay",
@@ -305,6 +314,7 @@ const poemsData = [
     { title: "Spilling Secrets Like Water",
          url: "/poems/height.html",
          category: "introspection",
+         subcategory: "Answer to her",
           description: "This poem reflects on the act of sharing one's innermost thoughts and feelings, exploring the vulnerability and strength that comes with it." },
 
     { title: "Ring and Dream",
@@ -314,7 +324,7 @@ const poemsData = [
 
   { title: "Mental Age Thirty-Two",
          url: "/poems/sbirth32.html",
-         category: "introspection",
+         category: "swostika",
           description: "This poem reflects on the complexities of mental age and maturity, exploring the disconnect between physical and emotional growth." },
 
     { title: "Misery Loop",
@@ -369,12 +379,12 @@ const poemsData = [
     {
          title: "Care",
           url: "/poems/care.html",
-           category: "friendship", 
+           category: "Tulsa", 
            description: "A heartfelt reflection on friendship, care, and the burden of being cared for." 
         },
     { title: "Confusion", url: "/poems/confusion.html", category: "introspection", description: "Navigating the storms of uncertainty and the complexity of human emotions." },
     { title: "Cry", url: "/poems/cry.html", category: "life", description: "A compassionate witness to tears and sorrow, offering silent comfort and understanding." },
-    { title: "She Who Lives Behind the Curtain", url: "/poems/curtain.html", category: "nature", description: "A mysterious presence, hidden yet ever-present, observing the world from behind the veil." },
+    { title: "She Who Lives Behind the Curtain", url: "/poems/curtain.html", category: "Swostika", description: "A mysterious presence, hidden yet ever-present, observing the world from behind the veil." },
     { title: "The Soul, Ignited by Water", url: "/poems/cycle.html", category: "life", description: "A meditation on renewal and transformation, where water becomes the spark that awakens the soul's deepest potential." },
     { title: "Dear", url: "/poems/dear.html", category: "love", description: "A heartfelt letter of longing, frustration, and the pain of unspoken love." },
     { title: "Dear Me", url: "/poems/dearme.html", category: "introspection", description: "A conversation with the self about lost hope, invisible love, and the pain of watching from afar." },
@@ -432,7 +442,9 @@ const poemsData = [
     { title: "Sorry", url: "/poems/sorry.html", category: "introspection", description: "A profound apology for existence, pain caused, and the destruction of built dreams." },
     { title: "Stone", url: "/poems/stone.html", category: "introspection", description: "A declaration of acceptance, choosing to remain as stone rather than be polished into something else." },
     { title: "Sunlight", url: "/poems/sunlight.html", category: "love", description: "The phase of seeing - being a candle in the night while the beloved seeks sunlight." },
-    { title: "Tao of Two People", url: "/poems/tao.html", category: "love", description: "A poetic journey through the balance and harmony found between two souls." },
+    { title: "Tao of Two People", url: "/poems/tao.html", category: "Sandip",
+        subcategory:"Swostika", 
+         description: "A poetic journey through the balance and harmony found between two souls." },
     { title: "Therapy for the Lost", url: "/poems/therapy.html", category: "life", description: "Finding therapy in connection, exploring the turbulence of emotions and the search for peace." },
     { title: "Thinking", url: "/poems/thinking.html", category: "spirituality", description: "Fear of thoughts being read, searching for God, and the cracking of worn masks." },
     { title: "Three Soul", url: "/poems/threesoul.html", category: "love", description: "A garden for ghosts, exploring the dynamics between three souls in a complex relationship." },
