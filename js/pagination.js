@@ -216,6 +216,7 @@ const poemsData = [
         title: "Witty One Around Me",
         url: "/poems/witty.html",
         category: "tulsa",
+        subcategory: "humor",
         description: "A playful exploration of a charming personality, capturing the essence of wit and humor in everyday life."
     },
     {
@@ -229,12 +230,14 @@ const poemsData = [
         title: "Bones, Skin and Flesh",
         url: "/poems/bones.html",
         category: "Fang Yuan",
+        subcategory: "novel",
         description: "This poem explores the relationship between physical appearance and inner essence, emphasizing the equality of all human beings."
     },
     {
         title: "Forward Toward the Sky",
         url: "/poems/fly.html",
-        category: "love",
+        category: "life",
+        subcategory: "uneasyness"
         description: "A poem that captures the essence of love and longing, expressed through the metaphor of flying towards the sky."
     },
 
@@ -276,11 +279,13 @@ const poemsData = [
     { title: "Vibration with Melody",
          url: "/poems/melody.html", 
          category: "love",
+            subcategory: "classmates",
          description: "A poem that captures the essence of love through the metaphor of music, exploring the deep connection between two souls." },
          
 { title: "Haami Saathi Hau",
          url: "/poems/hamisathi.html",
          category: "friendship",
+         subcategory: "admiration",
          description: "This poem reflects on the bond of friendship, exploring the unspoken understanding and connection between two people."
      },
 
