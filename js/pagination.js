@@ -202,15 +202,22 @@ const poemsData = [
         title: "My Old Lady",
         url: "/poems/oldlady.html",
         category: "swostika",
-          subcategory: "Letter",
-        description: "A playful yet heartfelt poem celebrating a partner whose wit, charm, and unpredictability make her feel older, wiser, and wonderfully untamed."
+        subcategory: "personality",
+        description: "A poem celebrating a partner whose wit, charm, and unpredictability make her feel older, wiser, and wonderfully untamed."
     },
     {
-        title: "Shade and Seed",
-        url: "/poems/moonlight.html",
-        category: "life",
-        subcategory: "swostika",
-        description: "A romantic poem that captures the beauty and tranquility of a moonlit night."
+        title: "Essence Dissipating",
+        url: "/poems/essence.html",
+        category: "introspection",
+        subcategory: "Despair",
+        description:"A beginning exploration of suffering, fate, and inner decay. It contrasts the purity with the brokenness of the self, portraying existence as a futile crawl toward peace that never comes."   
+     },
+    {
+        title: "Far Below Her Peak",
+        url: "/poems/belowherpeak.html",
+        category: "swostika",
+        subcategory: "admiration",
+        description: "A poem describing the interplay between a moon-like princess, her surroundings and me , a mere passenger."
     },
     {
         title: "Witty One Around Me",
@@ -220,11 +227,11 @@ const poemsData = [
         description: "A playful exploration of a charming personality, capturing the essence of wit and humor in everyday life."
     },
     {
-         title: "Truth and Lies",
+         title: "Journey Blessed With Lies",
          url: "/poems/truthnlie.html",
          category: "introspection",
          subcategory: "Lies a mile away",
-         description: "A poem about the struggle between truth and me where I write my lies thinking its true."
+         description: "A poem about the struggle between me and writing where I write my lies thinking its true. A fatal flaw filled with an illusion of truth."
     },
     {
         title: "Bones, Skin and Flesh",
@@ -234,7 +241,7 @@ const poemsData = [
         description: "This poem explores the relationship between physical appearance and inner essence, emphasizing the equality of all human beings."
     },
     {
-        title: "Forward Toward the Sky",
+        title: "Remores Of Begin Lost",
         url: "/poems/fly.html",
         category: "life",
         subcategory: "Loneliness",
@@ -242,10 +249,11 @@ const poemsData = [
     },
 
     {
-        title: "Night With My Inspiration",
+        title: "Between Smiles and Hesitation",
         url: "/poems/myinspiration.html",
         category: "swostika",
-        description: "This poem reflects on the inspiration drawn from a loved one, capturing the essence of admiration and longing."
+        subcategory: "moments",
+        description: "This poem is a tender reflection on a fleeting, friendly moment shared with someone deeply cherished. It captures the quiet magic of walking and talking together."
     },
 
     {
@@ -260,8 +268,8 @@ const poemsData = [
         url: "/poems/mirrorandivine.html",
         category: "swostika",
         subcategory:"sangam",
-                description: "A poem that explores the relationship between self-reflection and divine inspiration, delving into the depths of the soul."
-            },
+        description: "A poem that explores the relationship between self-reflection and divine inspiration, delving into the depths of the soul."
+    },
 
     {
         title: "Two Enchantress",
