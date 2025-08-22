@@ -257,7 +257,7 @@ const poemsData = [
     },
 
     {
-        title: "A Seed Breached",
+        title: "A Seed of Dream",
         url: "/poems/seedbreached.html",
         category: "introspection",
         description: " A poem that explores the journey of growth and self-discovery, likening it to a seed breaking through the soil."
