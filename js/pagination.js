@@ -197,6 +197,13 @@ class PoemPagination {
 
 // Poems data
 const poemsData = [
+ {
+        title: "The Reflection I Watch",
+        url: "/poems/reflection.html",
+        category: "swostika",
+        subcategory:"sangam",
+description: "The Reflection I Watch is a poem of quiet longing, observing two souls intertwined in a dance of love and flight—a perfect reflection that highlights the watcher's own lonely shore.",
+    },
 
     {
         title: "My Old Lady",
@@ -263,13 +270,6 @@ const poemsData = [
         description: " A poem that explores the journey of growth and self-discovery, likening it to a seed breaking through the soil."
     },
 
-    {
-        title: "Mirror And Divine",
-        url: "/poems/mirrorandivine.html",
-        category: "swostika",
-        subcategory:"sangam",
-        description: "A poem that explores the relationship between self-reflection and divine inspiration, delving into the depths of the soul."
-    },
 
     {
         title: "Two Enchantress",
