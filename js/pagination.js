@@ -270,9 +270,8 @@ description: "The Reflection I Watch is a poem of quiet longing, observing two s
         description: " A poem that explores the journey of growth and self-discovery, likening it to a seed breaking through the soil."
     },
 
-
     {
-        title: "Two Enchantress",
+        title: "Two Enchantresses",
         url: "/poems/twoenchantress.html",
         category: "Tulsa",
         subcategory:" Swostika",
