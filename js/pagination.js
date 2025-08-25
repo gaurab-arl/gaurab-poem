@@ -197,7 +197,13 @@ class PoemPagination {
 
 // Poems data
 const poemsData = [
-
+    {
+        title: "The Departure of My Yearning",
+        url: "/poems/specture.html",
+        category: "introspection",
+        subcategory: "Longing",
+        description: "A poignant exploration of the delicate nature of human existence, capturing the interplay between strength and fragility."
+    },
     {
         title: "Human Fragility",
         url: "/poems/fragility.html",
