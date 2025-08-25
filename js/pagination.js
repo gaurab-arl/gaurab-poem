@@ -197,7 +197,16 @@ class PoemPagination {
 
 // Poems data
 const poemsData = [
- {
+
+    {
+        title: "Human Fragility",
+        url: "/poems/fragility.html",
+        category: "introspection",
+        subcategory: "Vulnerability",
+        description: "A poignant exploration of the delicate nature of human existence, capturing the interplay between strength and fragility."
+    },
+
+    {
         title: "The Reflection I Watch",
         url: "/poems/reflection.html",
         category: "swostika",
