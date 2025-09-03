@@ -198,6 +198,13 @@ class PoemPagination {
 // Poems data
 const poemsData = [
     {
+        title: "Better Not to Know",
+        url: "/poems/notknow.html",
+        category: "introspection",
+        subcategory: "Awareness",
+        description: "A contemplative piece reflecting on the nature of knowledge and the comfort of ignorance."
+    },
+    {
         title: "The Departure of My Yearning",
         url: "/poems/specture.html",
         category: "introspection",
