@@ -198,8 +198,8 @@ class PoemPagination {
 // Poems data
 const poemsData = [
     {
-        title: Farak Ta Cha,
-        url: "/poems/farakta.html",
+        title: "Farak Ta Cha",
+        url: "/poems/faraktxa.html",
         category: "introspection",
         subcategory: "Separation",
         description: "A heartfelt exploration of the pain of separation and the longing for reunion, capturing the emotional turmoil of distance in relationships."
