@@ -198,6 +198,50 @@ class PoemPagination {
 // Poems data
 const poemsData = [
     {
+        title: "Exhausted Duality",
+        url: "/poems/exhausted.html",
+        category: "introspection",
+        subcategory: "Mental Health",
+        description: "A poem that captures the feeling of being in a chaotic situation, like hanging on a bus, and the longing for stability and peace."
+    },
+    {
+        title: "Nowhere to Stay",
+        url: "/poems/nowwhere.html",
+        category: "introspection",
+        subcategory: "Isolation",
+        description: "A poem that explores the feeling of being lost and disconnected, unable to find a place to belong."
+    },
+    {
+        title: "Crown of Hell",
+        url: "/poems/crownhell.html",
+        category: "introspection",
+        subcategory: "Dark",
+        description: "A dark exploration of suffering, fate, and inner decay. It contrasts the purity with the brokenness of the self, portraying existence as a futile crawl toward peace that never comes."
+    },
+     { title: "Stray Away From You",
+         url: "/poems/stray.html", 
+         category: "love",
+         subcategory : "light",
+         description: "This poem explores the feeling of longing and the desire to connect with someone special." 
+        },
+
+    {
+        title: "Endless Beginning",
+        url: "/poems/beginning.html",
+        category: "introspection",
+        subcategory: "Hope",
+        description: "A contemplative piece reflecting on the cyclical nature of existence and the perpetual search for meaning."
+    },
+         
+    {
+        title: "Forsaken Edge",
+        url: "/poems/forsaken.html",
+        category: "introspection",
+        subcategory: "Despair",
+        description: "A poignant exploration of loss and abandonment, capturing the essence of longing for a place or state that is forever out of reach."
+    },
+
+    {
         title: "Farak Ta Cha",
         url: "/poems/faraktxa.html",
         category: "introspection",
@@ -231,7 +275,7 @@ const poemsData = [
         url: "/poems/reflection.html",
         category: "swostika",
         subcategory:"sangam",
-description: "The Reflection I Watch is a poem of quiet longing, observing two souls intertwined in a dance of love and flight—a perfect reflection that highlights the watcher's own lonely shore.",
+        description: "The Reflection I Watch is a poem of quiet longing, observing two souls intertwined in a dance of love and flight—a perfect reflection that highlights the watcher's own lonely shore.",
     },
 
     {
@@ -393,11 +437,6 @@ description: "The Reflection I Watch is a poem of quiet longing, observing two s
          category: "friendship",
           description: "A heartfelt exploration of the bonds of friendship and the innocence that comes with it." },
   
-    { title: "Stray Away From You",
-         url: "/poems/stray.html", 
-         category: "love",
-          description: "This poem explores the feeling of longing and the desire to connect with someone special." },
-
     { title: "Terror of Person",
          url: "/poems/terror.html", 
          category: "Friendship",
