@@ -1,0 +1,62 @@
+:root {
+    --primary-color: #7e5bef;
+    --secondary-color: #f472b6;
+    --accent-color: #ffe4f2;
+    --text-color: #2f1e4c;
+    --background-color: #fdf9ff;
+    --card-background: #fff;
+    --shadow-color: rgba(126, 91, 239, 0.2);
+    --transition-speed: 0.4s;
+    --border-radius: 20px;
+    --font-family: 'Georgia', serif;
+    --card-shadow: 0 4px 24px var(--shadow-color);
+    --radius-md: 20px;
+    --radius-full: 999px;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.5rem;
+    --space-6: 2rem;
+    --space-8: 4rem;
+    --border-color: #e8dff6;
+    --text-secondary: #666;
+    --primary: #7e5bef;
+    --primary-light: #a992f7;
+    --bg-secondary: #f6f8fd;
+    --transition-normal: 0.3s;
+    --transition-fast: 0.15s;
+    --error: #f472b6;
+    --font-heading: 'Playfair Display', serif;
+    --text-muted: #6b7280;
+    --border-light: #e5e7eb;
+
+    --shared-header-image: url('../images/unified-header.jpeg');
+    --background-poem-wrapper: url('../images/poem-wrapper.png');
+}
+
+/* Smooth scrolling for the entire page */
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, #6a4acc, #e85bb8);
+}
