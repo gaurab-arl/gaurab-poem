@@ -1,6 +1,38 @@
 export const poems = [
   {
     id: 1,
+    title: " Chansing sunlight",
+    tag: 'love',
+    description: "A reflection on the pursuit of an idealized illusion and the realization of reality.",
+    poem: `She enjoyed her time,
+while being a sunlight.
+You dive after her
+into an imaginary mine,
+
+where every moment
+contradicts her story,
+yet you wait
+for a beautiful,
+illusionary obsession
+
+We humans want to
+possess an unreal goddess,
+so we align stories,
+tilt thoughts - 
+maybe it’s possible
+for you all
+to possess her.
+
+The illusion stands so close
+it feels like it could be mine.
+She keeps wandering, living - 
+the illusion keeps shifting - 
+at last, her place
+is reality, not imaginary.
+`
+  },
+  {
+    id: 1,
     title: "The Ocean Was Not Cruel",
     tag: "Introspection",
     description: "A meditation on love, drowning, and the quiet wish to keep floating.",
