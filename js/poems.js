@@ -1,7 +1,55 @@
 export const poems = [
   {
+    id: 24,
+    title: "A quiet room inside her",
+    tag: 'life',
+    description: "A reflection on a girl's inner world, her beauty, and the superficiality of those around her.",
+    poem: `
+    A quiet room inside her
+filled with unshed tears,
+where every sound arrives late
+and leaves early.
+
+Natural beauty-superficial
+too attractive to bear,
+No one learned the story,
+only practiced objectification
+
+door shuts, murmurs circles
+no knocks, direct infiltration.
+pity stares fill the air
+thorns between earnest feeling,
+no hands to steady her.  
+`
+  },
+  {
+    id: 0,
+    title: "Digging too deep",
+    tag: 'Chatgpt',
+    description: "A reply to poem chasing sunlight by chatgpt in context of 'she' mentioned in that poem",
+    poem: `
+    I enjoy the warmth,
+the way you look at me
+like I’m made of morning.
+But I never asked you
+to dig so deep.
+
+You follow me into stories
+you tell yourself,
+mines filled with meaning
+I didn’t bury.
+I watch you search
+while I keep moving.
+
+Your memories blur,
+rearrange themselves
+until I fit the shape
+you need me to be.
+`
+  },
+  {
     id: 1,
-    title: " Chansing sunlight",
+    title: " Chasing sunlight ",
     tag: 'love',
     description: "A reflection on the pursuit of an idealized illusion and the realization of reality.",
     poem: `She enjoyed her time,
