@@ -19,7 +19,7 @@ door shuts, murmurs circles
 no knocks, direct infiltration.
 pity stares fill the air
 thorns between earnest feeling,
-no hands to steady her.  
+and no hands to steady her.  
 `
   },
   {

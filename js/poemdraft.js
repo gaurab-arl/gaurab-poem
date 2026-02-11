@@ -1,5 +1,169 @@
 export const poemsMore = [
   {
+    id: 24,
+    title: "Nourishment",
+    tag: "life",
+    description: "About continuing to exist while feeling already dead inside.",
+    poem: `
+    nourishment 
+
+I sold my mental state
+People bought it to read
+an enjoyment to some
+a nourishment to some.
+
+I was made the cause
+of every misbehavior,
+the very curse
+that defines me,
+forces hiding
+in the dark.
+
+A breakdown into particles
+where images remind me
+of a place I don’t belong
+
+but I wanted some.
+`
+  },
+  {
+    id: 25,
+    title: "A gap between us",
+    tag: "life",
+    description: "About continuing to exist while feeling already dead inside.",
+    poem: `
+    A gap between us, 
+even unknowingly,
+expected something.
+
+An occurrence,
+certain but small
+an accident got them all.
+
+Humans expected sympathy
+where people had none.
+
+i too am statue
+i only stare , 
+listen, 
+think.
+
+at time need
+my hand 
+it was gone.
+`
+  },
+  {
+    id: 26,
+    title: "A shared memory",
+    tag: "life",
+    description: "About continuing to exist while feeling already dead inside.",
+    poem: `
+    A shared memory,
+never a story,
+confined in
+a place.
+
+Even then,
+some to left,
+some to right,
+some in front
+
+in seconds, scattered.
+Where I returned
+to myself.
+
+to origin,
+to a hut for none.
+Corners hugged
+a part of me,
+the rest was sold
+to some.
+`
+  },
+  {
+    id: 27,
+    title: "I didn't offer a hand",
+    tag: "life",
+    description: "About continuing to exist while feeling already dead inside.",
+    poem: `
+    
+
+I didn’t
+offer a hand,
+nor did they ask.
+
+We laughed,
+smiled even then—
+the mind constant,
+tinkering with pain.
+
+Named ‘friend’,
+yet frozen in place.
+Thought raced,
+but the body lost
+the game.
+
+Some dared;
+they left the place.
+I, a hole of water,
+avoided by fate.
+
+`
+  },
+  {
+    id: 28,
+    title: "Still Alive",
+    tag: "life",
+    description: "About continuing to exist while feeling already dead inside.",
+    poem: `
+
+I breathe just enough  
+to qualify as alive.
+
+I show up—  
+they forget.  
+I stand where  
+I don’t meet  
+their passing glances.
+
+Memory burnt out,  
+name forgotten.  
+I wasn’t a human,  
+just a passing fate.
+
+
+`
+  },
+  {
+    id: 29,
+    title: "Still Alive",
+    tag: "life",
+    description: "About continuing to exist while feeling already dead inside.",
+    poem: `
+Alone, a person on the phone,
+miles from the death door.
+A man sits beside an oasis,
+a soft tone in the wind.
+
+When he tries to look,
+she hides away her phone.
+
+New faces, each on every head,
+still looking for a place to stay.
+She seems to change every day.
+
+I had thought to begin alone,
+but she chose to talk with me
+that very day.
+
+Everyone included, finally
+i was an afterthought.
+seem invisible, but
+still cause other pain.
+`
+  },
+  {
     id: 11,
     title: "Once a Day, a Demon",
     tag: "inner-conflict",
